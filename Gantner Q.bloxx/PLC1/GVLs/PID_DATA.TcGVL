@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.3">
+  <GVL Name="PID_DATA" Id="{b8e77b26-c475-46d0-b90f-480b27b2cc3c}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	ge0 : REAL := 0;
+	ge1 : REAL := 0;
+	ge2 : REAL := 0;
+	gu0 : REAL := 0;
+	gu1 : REAL := 0;
+	gp : REAL := 1;
+	gi : REAL := 2;
+	gd : REAL := 0;
+	gset : REAL := 3000;
+	gmea : REAL := 0;
+	gstime: REAL := 0.001;
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

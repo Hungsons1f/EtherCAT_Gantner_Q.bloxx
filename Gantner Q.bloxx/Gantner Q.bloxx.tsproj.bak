@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.7">
+	<ImageDatas>
+		<ImageData Id="1000">424dce0400000000000036000000280000001c0000000e000000010018000000000098040000130b0000130b00000000000000000000ffffffffffffffffffb1b1b1c3c3c3c4c2c1bfbdbcd9d8dce5e2e6ede8eaf2edeef7f2f3b1b1b1e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3c3c3b7b5b4817e7b686667ddb4b2ddb4b2ddb4b2ddb4b2ddb4b2ddb4b2c9bebbd1c8c2ccccccd7d6d5b1b1b1e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5ffffffffffffffffffffffffffffffffffffffffffffffffb1b1b19f9d9b7b7774656466be9270be9270c49460ce9846ce9846ce9846ce9846c2934c6e6f70726e6b7b7876858281969593a3a19fb7b6b4c3c3c3ffffffffffffffffffffffffffffffffffffffffffffffffb1b1b19e9b997d7976656668be9270c39462db9d23e8a200e8a200d89c2ae5a107d79b0d6162655c57545d58555954515d58555b56536c6865b1b1b1ffffffffffffffffffffffffffffffffffffffffffffffffb1b1b19e9c9a807b7865676ac19367dc9e20e8a200e8a200e8a200c99654cc974bd89b0e6264685e5956605b585b56535f5a575e5956686462bca4bbb1b1b1ffffffffffffffffffffffffffffffffffffffffffb1b1b19f9c9b817e7b65676cc39462e8a200e8a200e8a200e8a200c99654be9270d89b0e62656b5f5a57635e5b5e5956605b58615c59676360babab9c3c3c3ffffffffffffffffffffffffffffffffffffffffffb1b1b19f9d9c85807d67696ec39462e8a200e8a200e8a200e8a200e4a10be3a00ed89b0f63676d605b58645f5c625d5a615c5965605d66625fb7b6b4c3c3c3ffffffffffffffffffffffffffffffffffffffffffb1b1b19f9d9b86827f666a70c39462e8a200e8a200e8a200e8a200e8a200e8a200d89b0f646871625d5a65605d67625f625d5a6863606a6562b3b1afc3c3c3ffffffffffffffffffffffffffffffffffffffffffb1b1b1a09d9b888481656c72c39462e8a200e8a200e8a200e8a200e8a200e8a200d89c10656c7565605d66615e6a656265605d67625f6e6966afacaac3c3c3ffffffffffffffffffffffffffffffffffffffffffb1b1b1a19d9a898481676d75c19367dc9e20e8a200e8a200e8a200e8a200e8a200dc9d0f80777267625f66615e6b666368636066615e716c69aca9a6c3c3c3ffffffffffffffffffffffffffffffffffffffffffb1b1b1a09c99898481687078be9270c39462d39a38d39a38e09f15e8a200e8a200e3a00ea9876d69646167625f6b66636c676467625f726d6aa9a7a4c3c3c3ffffffffffffffffffffffffffffffffffffffffffb1b1b197939184807d6c737bbe9270be9270be9270be9270c89656ce9846ce9846c5954d8179766b666367625f6a65626f6a67686360706b68a7a5a2c3c3c3ffffffffffffffffffffffffffffffffffffffffffb1b1b19b98959794919293959e959198908d918c8b8c8a8a87878a87898f8489938387937b7d807c787677727077726f787370726d6a736e6ba4a2a0c3c3c3ffffffffffffffffffffffffffffffffffffffffffc3c3c3e2e1e0dfdfdddfdfdedddddedadadad5d6d7cfd1d2c8cacbc3c5c7bdc0c3b7b8bcb2b2b1aaaaa9a3a2a19f9d9c9794928a8785a09e9ccccacac3c3c3ffffffffffffffffffffffff</ImageData>
+	</ImageDatas>
+	<Project ProjectGUID="{CF1C383D-F011-4C2A-9ADB-157D6B597C5E}" Target64Bit="true" ShowHideConfigurations="#x106">
+		<System>
+			<Settings MaxCpus="4" NonWinCpus="2">
+				<Cpu/>
+				<Cpu CpuId="1"/>
+				<Cpu CpuId="2"/>
+				<Cpu CpuId="3" BaseTime="500"/>
+				<IoIdleTask Affinity="#x00000004"/>
+			</Settings>
+			<Tasks>
+				<Task Id="3" Priority="20" CycleTime="10000" AmsPort="350" Affinity="#x00000008" AdtTasks="true">
+					<Name>PlcTask</Name>
+				</Task>
+			</Tasks>
+		</System>
+		<Plc>
+			<Project GUID="{D7C00065-543A-4839-B80F-384A12990FDD}" Name="PLC1" PrjFilePath="PLC1\PLC1.plcproj" TmcFilePath="PLC1\PLC1.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="PLC1\PLC1.tmc">
+					<Name>PLC1 Instance</Name>
+					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
+					<Vars VarGrpType="1">
+						<Name>PlcTask Inputs</Name>
+						<Var>
+							<Name>MAIN.AIN1</Name>
+							<Type>REAL</Type>
+						</Var>
+					</Vars>
+					<TaskPouOids>
+						<TaskPouOid Prio="20" OTCID="#x08502001"/>
+					</TaskPouOids>
+				</Instance>
+			</Project>
+			<PlcAuxTask Affinity="#x00000004"/>
+		</Plc>
+		<Io>
+			<Device Id="4" DevType="111" DevFlags="#x0003" AmsPort="28676" AmsNetId="192.168.56.1.5.1" RemoteName="Device 4 (EtherCAT)">
+				<Name>Device 4 (EtherCAT)</Name>
+				<AddressInfo>
+					<Pnp>
+						<DeviceDesc>Ethernet (Realtek PCIe GBE Family Controller)</DeviceDesc>
+						<DeviceName>\DEVICE\{17955A0D-1EAA-4B40-9204-7E6BB7F59AD3}</DeviceName>
+						<DeviceData>9840bb22cb9d</DeviceData>
+					</Pnp>
+				</AddressInfo>
+				<Image Id="3" AddrType="9" ImageType="3">
+					<Name>Image</Name>
+				</Image>
+				<Box Id="1" BoxType="9099" BoxFlags="#x00000020">
+					<Name>Box 1 (Q.station 101 T)</Name>
+					<ImageId>1000</ImageId>
+					<EtherCAT SlaveType="2" PdiType="#x0c08" StateMBoxPolling="true" CycleMBoxPollingTime="0" CoeType="31" VendorId="#x0000050a" ProductCode="#x0002ab9e" RevisionNo="#x00030000" InfoDataAddr="true" InfoDataDcTimes="true" WdDivider0400="25000" DdTime0420="100" EnableWdDivider0400="true" EnableWdTime0420="true" TimeoutStateChange1="60000" TimeoutMailbox2="2000" PortPhys="17" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="Q.station 101 T" Desc="Q.station 101 T" PortABoxInfo="#x00ffffff">
+						<SyncMan>001040002600010001000000400080004000001026010000</SyncMan>
+						<SyncMan>801040002200010002000000400080004000801022010000</SyncMan>
+						<SyncMan>001100000400000003000000000000000000001104030000</SyncMan>
+						<SyncMan>7e20140000000100040000000000000000007e2000030000</SyncMan>
+						<Fmmu>0000000000000000000000020000000001000000000000000000000000000000</Fmmu>
+						<Fmmu>00000000000000007e2000010100000002000000000000000000000000000000</Fmmu>
+						<Fmmu>00000000000000000d0800010100000003000000000000000000000000000000</Fmmu>
+						<DcData>0003000000000000000000000000000001000000000100000000000000000000</DcData>
+						<DcMode>4461746554696d6553796e634f6e0000446174652f54696d652073796e63206163746976650000000000000000000000000000000000000000000000000000030100000000000000000000000000000000000000000000000000000000000000</DcMode>
+						<DcMode>4f6666000000000000000000000000004e6f2073796e6300000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000</DcMode>
+						<Pdo Name="TxPDO mapping - DI1" Index="#x1a00" Flags="#x0011" SyncMan="3">
+							<Entry Name="DI1" Index="#x6000" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="TxPDO mapping - DI2" Index="#x1a01" Flags="#x0011" SyncMan="3">
+							<Entry Name="DI2" Index="#x6001" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="TxPDO mapping - DI3" Index="#x1a02" Flags="#x0011" SyncMan="3">
+							<Entry Name="DI3" Index="#x6002" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="TxPDO mapping - DI4" Index="#x1a03" Flags="#x0011" SyncMan="3">
+							<Entry Name="DI4" Index="#x6003" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="TxPDO mapping - DI5" Index="#x1a04" Flags="#x0011" SyncMan="3">
+							<Entry Name="DI5" Index="#x6004" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="TxPDO mapping - DI6" Index="#x1a05" Flags="#x0011" SyncMan="3">
+							<Entry Name="DI6" Index="#x6005" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="TxPDO mapping - DI7" Index="#x1a06" Flags="#x0011" SyncMan="3">
+							<Entry Name="DI7" Index="#x6006" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="TxPDO mapping - DI8" Index="#x1a07" Flags="#x0011" SyncMan="3">
+							<Entry Name="DI8" Index="#x6007" Sub="#x01">
+								<Type>USINT</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="TxPDO mapping - Arithmetic_Empty" Index="#x1a08" Flags="#x0011" SyncMan="3">
+							<Entry Name="Arithmetic_Empty" Index="#x6008" Sub="#x01">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="TxPDO mapping - vin" Index="#x1a09" Flags="#x0011" SyncMan="3">
+							<Entry Name="vin" Index="#x6009" Sub="#x01">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="TxPDO mapping - V2" Index="#x1a0a" Flags="#x0011" SyncMan="3">
+							<Entry Name="V2" Index="#x600a" Sub="#x01">
+								<Type>REAL</Type>
+							</Entry>
+						</Pdo>
+					</EtherCAT>
+				</Box>
+				<EtherCAT DcSyncMode="3"/>
+			</Device>
+		</Io>
+	</Project>
+	<Mappings>
+		<MappingInfo Identifier="{00000000-2001-0850-0020-500830000403}" Id="#x02030010"/>
+		<OwnerA Name="TIPC^PLC1^PLC1 Instance">
+			<OwnerB Name="TIID^Device 4 (EtherCAT)^Box 1 (Q.station 101 T)">
+				<Link VarA="PlcTask Inputs^MAIN.AIN1" VarB="TxPDO mapping - V2^V2"/>
+			</OwnerB>
+		</OwnerA>
+	</Mappings>
+</TcSmProject>

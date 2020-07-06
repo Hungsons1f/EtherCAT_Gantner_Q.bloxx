@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.3">
+  <POU Name="PID" Id="{3be49269-d286-45a5-b12d-a57be8ebfef9}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION PID 
+VAR_IN_OUT
+	e0, e1, e2: REAL;
+	u0, u1: REAL;
+	p, i, d: REAL;
+	set, mea: REAL;
+	stime: REAL;
+	
+END_VAR
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[e2 := e1;
+e1 := e0;
+e0 := set - mea;
+u1 := u0;
+u0 := u1 + p*(e0 - e1) + i*stime*(e0 + e1)/2.0 + d*(e0 - 2*e1 + e2)/stime;
+]]></ST>
+    </Implementation>
+    <LineIds Name="PID">
+      <LineId Id="16" Count="0" />
+      <LineId Id="25" Count="1" />
+      <LineId Id="28" Count="1" />
+      <LineId Id="31" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
