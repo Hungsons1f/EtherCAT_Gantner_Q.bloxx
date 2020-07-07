@@ -57,65 +57,60 @@
 						<SyncMan>001040002600010001000000400080004000001026010000</SyncMan>
 						<SyncMan>801040002200010002000000400080004000801022010000</SyncMan>
 						<SyncMan>001100000400000003000000000000000000001104030000</SyncMan>
-						<SyncMan>7e20140000000100040000000000000000007e2000030000</SyncMan>
+						<SyncMan>7e201a0000000100040000000000000000007e2000030000</SyncMan>
 						<Fmmu>0000000000000000000000020000000001000000000000000000000000000000</Fmmu>
 						<Fmmu>00000000000000007e2000010100000002000000000000000000000000000000</Fmmu>
 						<Fmmu>00000000000000000d0800010100000003000000000000000000000000000000</Fmmu>
-						<DcData>0003000000000000000000000000000001000000000000000000000000000000</DcData>
+						<DcData>0003000000000000000000000000000001000000000100000000000000000000</DcData>
 						<DcMode>4461746554696d6553796e634f6e0000446174652f54696d652073796e63206163746976650000000000000000000000000000000000000000000000000000030100000000000000000000000000000000000000000000000000000000000000</DcMode>
 						<DcMode>4f6666000000000000000000000000004e6f2073796e6300000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000</DcMode>
 						<Pdo Name="TxPDO mapping - DI1" Index="#x1a00" Flags="#x0011" SyncMan="3">
 							<Entry Name="DI1" Index="#x6000" Sub="#x01">
+								<Type>LINT</Type>
+							</Entry>
+						</Pdo>
+						<Pdo Name="TxPDO mapping - DI3" Index="#x1a01" Flags="#x0011" SyncMan="3">
+							<Entry Name="DI3" Index="#x6001" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="TxPDO mapping - DI2" Index="#x1a01" Flags="#x0011" SyncMan="3">
-							<Entry Name="DI2" Index="#x6001" Sub="#x01">
+						<Pdo Name="TxPDO mapping - DI4" Index="#x1a02" Flags="#x0011" SyncMan="3">
+							<Entry Name="DI4" Index="#x6002" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="TxPDO mapping - DI3" Index="#x1a02" Flags="#x0011" SyncMan="3">
-							<Entry Name="DI3" Index="#x6002" Sub="#x01">
+						<Pdo Name="TxPDO mapping - DI5" Index="#x1a03" Flags="#x0011" SyncMan="3">
+							<Entry Name="DI5" Index="#x6003" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="TxPDO mapping - DI4" Index="#x1a03" Flags="#x0011" SyncMan="3">
-							<Entry Name="DI4" Index="#x6003" Sub="#x01">
+						<Pdo Name="TxPDO mapping - DI6" Index="#x1a04" Flags="#x0011" SyncMan="3">
+							<Entry Name="DI6" Index="#x6004" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="TxPDO mapping - DI5" Index="#x1a04" Flags="#x0011" SyncMan="3">
-							<Entry Name="DI5" Index="#x6004" Sub="#x01">
+						<Pdo Name="TxPDO mapping - DI7" Index="#x1a05" Flags="#x0011" SyncMan="3">
+							<Entry Name="DI7" Index="#x6005" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="TxPDO mapping - DI6" Index="#x1a05" Flags="#x0011" SyncMan="3">
-							<Entry Name="DI6" Index="#x6005" Sub="#x01">
+						<Pdo Name="TxPDO mapping - DI8" Index="#x1a06" Flags="#x0011" SyncMan="3">
+							<Entry Name="DI8" Index="#x6006" Sub="#x01">
 								<Type>USINT</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="TxPDO mapping - DI7" Index="#x1a06" Flags="#x0011" SyncMan="3">
-							<Entry Name="DI7" Index="#x6006" Sub="#x01">
-								<Type>USINT</Type>
-							</Entry>
-						</Pdo>
-						<Pdo Name="TxPDO mapping - DI8" Index="#x1a07" Flags="#x0011" SyncMan="3">
-							<Entry Name="DI8" Index="#x6007" Sub="#x01">
-								<Type>USINT</Type>
-							</Entry>
-						</Pdo>
-						<Pdo Name="TxPDO mapping - Arithmetic_Empty" Index="#x1a08" Flags="#x0011" SyncMan="3">
-							<Entry Name="Arithmetic_Empty" Index="#x6008" Sub="#x01">
+						<Pdo Name="TxPDO mapping - Arithmetic_Empty" Index="#x1a07" Flags="#x0011" SyncMan="3">
+							<Entry Name="Arithmetic_Empty" Index="#x6007" Sub="#x01">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="TxPDO mapping - Vin" Index="#x1a09" Flags="#x0011" SyncMan="3">
-							<Entry Name="Vin" Index="#x6009" Sub="#x01">
+						<Pdo Name="TxPDO mapping - Vin" Index="#x1a08" Flags="#x0011" SyncMan="3">
+							<Entry Name="Vin" Index="#x6008" Sub="#x01">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>
-						<Pdo Name="TxPDO mapping - res" Index="#x1a0a" Flags="#x0011" SyncMan="3">
-							<Entry Name="res" Index="#x600a" Sub="#x01">
+						<Pdo Name="TxPDO mapping - res" Index="#x1a09" Flags="#x0011" SyncMan="3">
+							<Entry Name="res" Index="#x6009" Sub="#x01">
 								<Type>REAL</Type>
 							</Entry>
 						</Pdo>

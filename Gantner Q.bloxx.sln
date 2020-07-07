@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{B1E792BE-AA5F-4E3C-8C82-674BF9C0715B}") = "Gantner Q.bloxx", "Gantner Q.bloxx\Gantner Q.bloxx.tsproj", "{CF1C383D-F011-4C2A-9ADB-157D6B597C5E}"
 EndProject
+Project("{FD9F1D59-E000-42F3-8744-88DE1BE93C06}") = "Graph", "Graph\Graph.tcmproj", "{4390B202-C52C-4B78-8899-9DF8E4BDB3A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|TwinCAT CE7 (ARMV7) = Debug|TwinCAT CE7 (ARMV7)
@@ -49,6 +51,14 @@ Global
 		{D7C00065-543A-4839-B80F-384A12990FDD}.Release|TwinCAT RT (x64).Build.0 = Release|TwinCAT RT (x64)
 		{D7C00065-543A-4839-B80F-384A12990FDD}.Release|TwinCAT RT (x86).ActiveCfg = Release|TwinCAT RT (x86)
 		{D7C00065-543A-4839-B80F-384A12990FDD}.Release|TwinCAT RT (x86).Build.0 = Release|TwinCAT RT (x86)
+		{4390B202-C52C-4B78-8899-9DF8E4BDB3A1}.Debug|TwinCAT CE7 (ARMV7).ActiveCfg = Debug|TwinCAT CE7 (ARMV7)
+		{4390B202-C52C-4B78-8899-9DF8E4BDB3A1}.Debug|TwinCAT OS (ARMT2).ActiveCfg = Debug|TwinCAT OS (ARMT2)
+		{4390B202-C52C-4B78-8899-9DF8E4BDB3A1}.Debug|TwinCAT RT (x64).ActiveCfg = Debug|TwinCAT RT (x64)
+		{4390B202-C52C-4B78-8899-9DF8E4BDB3A1}.Debug|TwinCAT RT (x86).ActiveCfg = Debug|TwinCAT RT (x86)
+		{4390B202-C52C-4B78-8899-9DF8E4BDB3A1}.Release|TwinCAT CE7 (ARMV7).ActiveCfg = Release|TwinCAT CE7 (ARMV7)
+		{4390B202-C52C-4B78-8899-9DF8E4BDB3A1}.Release|TwinCAT OS (ARMT2).ActiveCfg = Release|TwinCAT OS (ARMT2)
+		{4390B202-C52C-4B78-8899-9DF8E4BDB3A1}.Release|TwinCAT RT (x64).ActiveCfg = Release|TwinCAT RT (x64)
+		{4390B202-C52C-4B78-8899-9DF8E4BDB3A1}.Release|TwinCAT RT (x86).ActiveCfg = Release|TwinCAT RT (x86)
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
