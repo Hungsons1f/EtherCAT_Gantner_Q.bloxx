@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.3">
+  <POU Name="ClearPID" Id="{063cb411-9ab2-4894-b7e6-69372d470e52}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION ClearPID 
+VAR_INPUT
+	enable: BOOL;
+	
+END_VAR
+VAR_IN_OUT
+	e0, e1, e2: REAL;
+	u0, u1: REAL;
+	
+END_VAR
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[IF (enable = TRUE) THEN
+	e0 := 0;
+	e1 := 0;
+	e2 := 0;
+	u0 := 0;
+	u1 := 0;
+END_IF]]></ST>
+    </Implementation>
+    <LineIds Name="ClearPID">
+      <LineId Id="7" Count="0" />
+      <LineId Id="20" Count="0" />
+      <LineId Id="22" Count="3" />
+      <LineId Id="21" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

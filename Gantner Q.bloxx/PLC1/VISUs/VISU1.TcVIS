@@ -147,7 +147,7 @@
                     </o>
                     <o>
                       <v n="Id">2477733581L</v>
-                      <v n="Value">"MAIN.AIN1"</v>
+                      <v n="Value">"MAIN.AIN1/40.0"</v>
                     </o>
                     <o>
                       <v n="Id">823443203L</v>
@@ -727,7 +727,7 @@
                     </o>
                     <o>
                       <v n="Id">2477733581L</v>
-                      <v n="Value">"PID_DATA.gset"</v>
+                      <v n="Value">"PID_DATA.gset/40.0"</v>
                     </o>
                     <o>
                       <v n="Id">823443203L</v>
@@ -1850,10 +1850,10 @@
               <d n="FbMethods" t="CaseInsensitiveHashtable" ckt="String" cvt="Guid">
                 <v>FB_Init</v>
                 <v>19414353-6a1a-47ea-b230-5762527ada76</v>
-                <v>FB_Exit</v>
-                <v>e8436161-854b-4545-bb2c-8db88efbf18a</v>
                 <v>FB_Reinit</v>
                 <v>4d61010d-916d-476d-9fa8-bb337cc72007</v>
+                <v>FB_Exit</v>
+                <v>e8436161-854b-4545-bb2c-8db88efbf18a</v>
               </d>
               <v n="FbName">"NotImportant"</v>
               <v n="FbGuid">{45c2724a-a64e-4d30-806a-fef706208aef}</v>

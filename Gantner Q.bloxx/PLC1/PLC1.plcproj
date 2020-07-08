@@ -33,6 +33,9 @@
     <Compile Include="POUs\PID.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\ClearPID.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Visualization Manager.TcVMO">
       <SubType>Code</SubType>
     </Compile>
