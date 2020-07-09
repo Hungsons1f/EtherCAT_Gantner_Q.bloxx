@@ -2,8 +2,8 @@
 <ScopeProject AssemblyName="TwinCAT.Measurement.Scope.API.Model">
   <Layout>&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;Layout&gt;
-  &lt;Window Guid="93b2547c-e3e7-4ec5-b835-ce0bca8b7ecb" LastFocused="132385880119853306" DockedSize="200" PopupSize="0" FloatingLocation="-1, -1" FloatingSize="550, 400" LastOpenDockSituation="Document" LastFixedDockSituation="Document" LastFixedDockLocation="Right" LastFloatingWindowGuid="00000000-0000-0000-0000-000000000000" LastDockContainerCount="0" LastDockContainerIndex="0" DockedWorkingSize="250, 400" DockedWindowGroupGuid="00000000-0000-0000-0000-000000000000" DockedIndexInWindowGroup="0" DockedSplitPath="0" DocumentWorkingSize="250, 400" DocumentWindowGroupGuid="18bf1154-cb03-4bd2-91d2-b5f0495f767f" DocumentIndexInWindowGroup="0" DocumentSplitPath="0" FloatingWorkingSize="250, 400" FloatingWindowGroupGuid="00000000-0000-0000-0000-000000000000" FloatingIndexInWindowGroup="0" FloatingSplitPath="0" /&gt;
-  &lt;Window Guid="46bb1285-5cce-4f3f-b3e9-05d7b94bbffa" LastFocused="132385878470363292" DockedSize="200" PopupSize="0" FloatingLocation="-1, -1" FloatingSize="550, 400" LastOpenDockSituation="Document" LastFixedDockSituation="Document" LastFixedDockLocation="Right" LastFloatingWindowGuid="00000000-0000-0000-0000-000000000000" LastDockContainerCount="0" LastDockContainerIndex="0" DockedWorkingSize="250, 400" DockedWindowGroupGuid="00000000-0000-0000-0000-000000000000" DockedIndexInWindowGroup="0" DockedSplitPath="0" DocumentWorkingSize="250, 400" DocumentWindowGroupGuid="4f0568e9-a5ae-445f-b3d5-b1c391493e57" DocumentIndexInWindowGroup="0" DocumentSplitPath="1" FloatingWorkingSize="250, 400" FloatingWindowGroupGuid="00000000-0000-0000-0000-000000000000" FloatingIndexInWindowGroup="0" FloatingSplitPath="0" /&gt;
+  &lt;Window Guid="93b2547c-e3e7-4ec5-b835-ce0bca8b7ecb" LastFocused="132387625820811458" DockedSize="200" PopupSize="0" FloatingLocation="-1, -1" FloatingSize="550, 400" LastOpenDockSituation="Document" LastFixedDockSituation="Document" LastFixedDockLocation="Right" LastFloatingWindowGuid="00000000-0000-0000-0000-000000000000" LastDockContainerCount="0" LastDockContainerIndex="0" DockedWorkingSize="250, 400" DockedWindowGroupGuid="00000000-0000-0000-0000-000000000000" DockedIndexInWindowGroup="0" DockedSplitPath="0" DocumentWorkingSize="250, 400" DocumentWindowGroupGuid="18bf1154-cb03-4bd2-91d2-b5f0495f767f" DocumentIndexInWindowGroup="0" DocumentSplitPath="0" FloatingWorkingSize="250, 400" FloatingWindowGroupGuid="00000000-0000-0000-0000-000000000000" FloatingIndexInWindowGroup="0" FloatingSplitPath="0" /&gt;
+  &lt;Window Guid="46bb1285-5cce-4f3f-b3e9-05d7b94bbffa" LastFocused="132387625257141468" DockedSize="200" PopupSize="0" FloatingLocation="-1, -1" FloatingSize="550, 400" LastOpenDockSituation="Document" LastFixedDockSituation="Document" LastFixedDockLocation="Right" LastFloatingWindowGuid="00000000-0000-0000-0000-000000000000" LastDockContainerCount="0" LastDockContainerIndex="0" DockedWorkingSize="250, 400" DockedWindowGroupGuid="00000000-0000-0000-0000-000000000000" DockedIndexInWindowGroup="0" DockedSplitPath="0" DocumentWorkingSize="250, 400" DocumentWindowGroupGuid="4f0568e9-a5ae-445f-b3d5-b1c391493e57" DocumentIndexInWindowGroup="0" DocumentSplitPath="1" FloatingWorkingSize="250, 400" FloatingWindowGroupGuid="00000000-0000-0000-0000-000000000000" FloatingIndexInWindowGroup="0" FloatingSplitPath="0" /&gt;
   &lt;DocumentContainer Dock="5"&gt;
     &lt;SplitLayoutSystem WorkingSize="250, 400" SplitMode="0"&gt;
       &lt;ControlLayoutSystem WorkingSize="250, 400" Guid="18bf1154-cb03-4bd2-91d2-b5f0495f767f" Collapsed="0" SelectedControl="93b2547c-e3e7-4ec5-b835-ce0bca8b7ecb"&gt;
@@ -23,8 +23,6 @@
   <AutoRestartRecord>false</AutoRestartRecord>
   <MainServer>127.0.0.1.1.1</MainServer>
   <HeadlessServerConnectionId>00000000-0000-0000-0000-000000000000</HeadlessServerConnectionId>
-  <TargetConnectionIds />
-  <HeadlessServer />
   <ViewDetailLevel>Default</ViewDetailLevel>
   <UseAutoSave>false</UseAutoSave>
   <AutoSavePath>$ScopeProject$\AutoSave</AutoSavePath>
@@ -68,11 +66,11 @@
               <Guid>a755390f-eb96-4cb6-a71b-a44f3704580e</Guid>
               <Title>ChartZoomStyle_12</Title>
               <Name>Chartzoom Style</Name>
-              <Comment />
               <DisplayColor>Black</DisplayColor>
               <SortPriority>100</SortPriority>
               <IsFileBased>false</IsFileBased>
               <Suffix>.svstyle</Suffix>
+              <Comment />
             </ChartZoomStyle>
             <ChartMenuStyle AssemblyName="TwinCAT.Measurement.Scope.API.Model">
               <VisibleToolStrip>true</VisibleToolStrip>
@@ -89,32 +87,32 @@
               <Guid>c72cfdde-ab1b-4d3b-bba8-f6b6da8c4e05</Guid>
               <Title>ChartMenuStyle_14</Title>
               <Name>Chartmenu Style</Name>
-              <Comment />
               <DisplayColor>Black</DisplayColor>
               <SortPriority>100</SortPriority>
               <IsFileBased>false</IsFileBased>
               <Suffix>.svstyle</Suffix>
+              <Comment />
             </ChartMenuStyle>
           </SubMember>
           <Guid>092b6536-0350-47e8-ba8f-4dda77867134</Guid>
           <Title>ChartStyle_9</Title>
           <Name>Chart Style</Name>
-          <Comment />
           <DisplayColor>Black</DisplayColor>
           <SortPriority>100</SortPriority>
           <IsFileBased>false</IsFileBased>
           <Suffix>.svstyle</Suffix>
+          <Comment />
         </ChartStyle>
         <OverviewChart AssemblyName="TwinCAT.Measurement.Scope.API.Model">
           <OverviewVisible>false</OverviewVisible>
           <Guid>ea601255-2bee-45a9-9240-d64a4175b213</Guid>
           <Title>OverviewChart_15</Title>
           <Name>Overview Chart</Name>
-          <Comment />
           <DisplayColor>-1118482</DisplayColor>
           <SortPriority>100</SortPriority>
           <IsFileBased>false</IsFileBased>
           <Suffix>.svochart</Suffix>
+          <Comment />
         </OverviewChart>
         <AxisGroup AssemblyName="TwinCAT.Measurement.Scope.API.Model">
           <Enabled>true</Enabled>
@@ -141,11 +139,11 @@
                   <Guid>8d1d378f-b3ba-4e13-99d3-2d4e3d113143</Guid>
                   <Title>AxisStyle_21</Title>
                   <Name>Axis Style</Name>
-                  <Comment />
                   <DisplayColor>DarkSlateGray</DisplayColor>
                   <SortPriority>100</SortPriority>
                   <IsFileBased>false</IsFileBased>
                   <Suffix>.svstyle</Suffix>
+                  <Comment />
                 </AxisStyle>
               </SubMember>
               <Guid>d61b9843-6d9b-452a-b919-8ef0aad5a4be</Guid>
@@ -179,21 +177,21 @@
                   <Guid>93d09ec4-075a-40cb-bbee-c91267b39d7f</Guid>
                   <Title>AxisStyle_21</Title>
                   <Name>Axis Style (1)</Name>
-                  <Comment />
                   <DisplayColor>DarkSlateGray</DisplayColor>
                   <SortPriority>100</SortPriority>
                   <IsFileBased>false</IsFileBased>
                   <Suffix>.svstyle</Suffix>
+                  <Comment />
                 </AxisStyle>
               </SubMember>
               <Guid>1747fc2a-a870-4861-abf1-4b8172e85e7b</Guid>
               <Title>Value Axis</Title>
               <Name>Value Axis</Name>
-              <Comment />
               <DisplayColor>Black</DisplayColor>
               <SortPriority>100</SortPriority>
               <IsFileBased>false</IsFileBased>
               <Suffix>.svaxis</Suffix>
+              <Comment />
             </ValueAxis>
             <MarkerContainer AssemblyName="TwinCAT.Measurement.Scope.API.Model">
               <SubMember />
@@ -319,11 +317,11 @@
               <Guid>bf37dc02-8eb3-4b13-9c49-d4ea53dfd8a6</Guid>
               <Title>Channel_27</Title>
               <Name>gset</Name>
-              <Comment />
               <DisplayColor>-16744448</DisplayColor>
               <SortPriority>10</SortPriority>
               <IsFileBased>false</IsFileBased>
               <Suffix>.svchannel</Suffix>
+              <Comment />
             </Channel>
             <Channel AssemblyName="TwinCAT.Measurement.Scope.API.Model">
               <Enabled>true</Enabled>
@@ -438,44 +436,45 @@
               <Guid>2f7bc827-22b4-4fee-9094-3776ef4c5bb0</Guid>
               <Title>Channel_27</Title>
               <Name>gmea</Name>
-              <Comment />
               <DisplayColor>-16776961</DisplayColor>
               <SortPriority>11</SortPriority>
               <IsFileBased>false</IsFileBased>
               <Suffix>.svchannel</Suffix>
+              <Comment />
             </Channel>
           </SubMember>
           <Guid>21bc8a6d-fec4-4aac-afe9-ec24a7ea50d7</Guid>
           <Title>AxisGroup_17</Title>
           <Name>Position</Name>
-          <Comment />
           <DisplayColor>-1118482</DisplayColor>
           <SortPriority>10</SortPriority>
           <IsFileBased>false</IsFileBased>
           <Suffix>.svagroup</Suffix>
+          <Comment />
         </AxisGroup>
       </SubMember>
       <Guid>93b2547c-e3e7-4ec5-b835-ce0bca8b7ecb</Guid>
       <Title>YTChart_8</Title>
       <Name>YT Chart</Name>
-      <Comment />
       <DisplayColor>-1973016</DisplayColor>
       <SortPriority>10</SortPriority>
       <IsFileBased>false</IsFileBased>
       <Suffix>.svchart</Suffix>
+      <Comment />
     </YTChart>
     <DataPool AssemblyName="TwinCAT.Measurement.Scope.API.Model">
       <SubMember>
         <AdsAcquisition AssemblyName="TwinCAT.Measurement.Scope.API.Model">
           <IndexGroup>16448</IndexGroup>
-          <IndexOffset>385088</IndexOffset>
+          <IndexOffset>385092</IndexOffset>
           <SymbolName>PID_DATA.gset</SymbolName>
           <SymbolBased>true</SymbolBased>
           <TargetPort>851</TargetPort>
           <ContextMask>0</ContextMask>
           <IsHistorical>false</IsHistorical>
-          <FileHandle>0</FileHandle>
+          <FileHandle>10</FileHandle>
           <ServerHandle>0</ServerHandle>
+          <ChannelStyleInformation />
           <Enabled>true</Enabled>
           <AmsNetId>192.168.56.1.1.1</AmsNetId>
           <UseLocalServer>true</UseLocalServer>
@@ -544,18 +543,18 @@
           <SortPriority>10</SortPriority>
           <IsFileBased>false</IsFileBased>
           <Suffix>.svacq</Suffix>
-          <ChannelStyleInformation />
         </AdsAcquisition>
         <AdsAcquisition AssemblyName="TwinCAT.Measurement.Scope.API.Model">
           <IndexGroup>16448</IndexGroup>
-          <IndexOffset>385092</IndexOffset>
+          <IndexOffset>385096</IndexOffset>
           <SymbolName>PID_DATA.gmea</SymbolName>
           <SymbolBased>true</SymbolBased>
           <TargetPort>851</TargetPort>
           <ContextMask>0</ContextMask>
           <IsHistorical>false</IsHistorical>
-          <FileHandle>0</FileHandle>
+          <FileHandle>11</FileHandle>
           <ServerHandle>0</ServerHandle>
+          <ChannelStyleInformation />
           <Enabled>true</Enabled>
           <AmsNetId>192.168.56.1.1.1</AmsNetId>
           <UseLocalServer>true</UseLocalServer>
@@ -624,18 +623,18 @@
           <SortPriority>10</SortPriority>
           <IsFileBased>false</IsFileBased>
           <Suffix>.svacq</Suffix>
-          <ChannelStyleInformation />
         </AdsAcquisition>
         <AdsAcquisition AssemblyName="TwinCAT.Measurement.Scope.API.Model">
           <IndexGroup>16448</IndexGroup>
-          <IndexOffset>385068</IndexOffset>
+          <IndexOffset>385072</IndexOffset>
           <SymbolName>PID_DATA.gu0</SymbolName>
           <SymbolBased>true</SymbolBased>
           <TargetPort>851</TargetPort>
           <ContextMask>0</ContextMask>
           <IsHistorical>false</IsHistorical>
-          <FileHandle>0</FileHandle>
+          <FileHandle>12</FileHandle>
           <ServerHandle>0</ServerHandle>
+          <ChannelStyleInformation />
           <Enabled>true</Enabled>
           <AmsNetId>192.168.56.1.1.1</AmsNetId>
           <UseLocalServer>true</UseLocalServer>
@@ -704,7 +703,6 @@
           <SortPriority>10</SortPriority>
           <IsFileBased>false</IsFileBased>
           <Suffix>.svacq</Suffix>
-          <ChannelStyleInformation />
         </AdsAcquisition>
       </SubMember>
       <Guid>fbbfde73-86c2-4024-a81b-43472af9b1a2</Guid>
@@ -728,11 +726,11 @@
           <Guid>d2e9815d-0e41-4ae7-952e-da4dab02b390</Guid>
           <Title>OverviewChart_99</Title>
           <Name>Overview Chart (1)</Name>
-          <Comment />
           <DisplayColor>-1118482</DisplayColor>
           <SortPriority>100</SortPriority>
           <IsFileBased>false</IsFileBased>
           <Suffix>.svochart</Suffix>
+          <Comment />
         </OverviewChart>
         <ChartStyle AssemblyName="TwinCAT.Measurement.Scope.API.Model">
           <StackedAxes>false</StackedAxes>
@@ -746,11 +744,11 @@
               <Guid>52655f9e-8f9c-4205-afb8-72e3d0bfd179</Guid>
               <Title>ChartZoomStyle_12</Title>
               <Name>Chartzoom Style (1)</Name>
-              <Comment />
               <DisplayColor>Black</DisplayColor>
               <SortPriority>100</SortPriority>
               <IsFileBased>false</IsFileBased>
               <Suffix>.svstyle</Suffix>
+              <Comment />
             </ChartZoomStyle>
             <ChartMenuStyle AssemblyName="TwinCAT.Measurement.Scope.API.Model">
               <VisibleToolStrip>true</VisibleToolStrip>
@@ -767,21 +765,21 @@
               <Guid>345db107-977a-47fd-8e67-dc97fc3869d0</Guid>
               <Title>ChartMenuStyle_14</Title>
               <Name>Chartmenu Style (1)</Name>
-              <Comment />
               <DisplayColor>Black</DisplayColor>
               <SortPriority>100</SortPriority>
               <IsFileBased>false</IsFileBased>
               <Suffix>.svstyle</Suffix>
+              <Comment />
             </ChartMenuStyle>
           </SubMember>
           <Guid>0602d11d-a800-43dc-a135-e13205422f31</Guid>
           <Title>ChartStyle_100</Title>
           <Name>Chart Style (1)</Name>
-          <Comment />
           <DisplayColor>Black</DisplayColor>
           <SortPriority>100</SortPriority>
           <IsFileBased>false</IsFileBased>
           <Suffix>.svstyle</Suffix>
+          <Comment />
         </ChartStyle>
         <AxisGroup AssemblyName="TwinCAT.Measurement.Scope.API.Model">
           <Enabled>true</Enabled>
@@ -808,21 +806,21 @@
                   <Guid>27edb2e0-1a44-4576-a98b-74568ac75d00</Guid>
                   <Title>AxisStyle_21</Title>
                   <Name>Axis Style (2)</Name>
-                  <Comment />
                   <DisplayColor>DarkSlateGray</DisplayColor>
                   <SortPriority>100</SortPriority>
                   <IsFileBased>false</IsFileBased>
                   <Suffix>.svstyle</Suffix>
+                  <Comment />
                 </AxisStyle>
               </SubMember>
               <Guid>6482c6fc-56fa-4d39-8e35-1e2c23e13b46</Guid>
               <Title>Value Axis</Title>
               <Name>Value Axis (1)</Name>
-              <Comment />
               <DisplayColor>Black</DisplayColor>
               <SortPriority>100</SortPriority>
               <IsFileBased>false</IsFileBased>
               <Suffix>.svaxis</Suffix>
+              <Comment />
             </ValueAxis>
             <MarkerContainer AssemblyName="TwinCAT.Measurement.Scope.API.Model">
               <SubMember />
@@ -948,11 +946,11 @@
               <Guid>ddca3ece-19c0-4df5-8453-70fa2d7488eb</Guid>
               <Title>Channel_27</Title>
               <Name>gu0</Name>
-              <Comment />
               <DisplayColor>-23296</DisplayColor>
               <SortPriority>12</SortPriority>
               <IsFileBased>false</IsFileBased>
               <Suffix>.svchannel</Suffix>
+              <Comment />
             </Channel>
             <TimeAxis AssemblyName="TwinCAT.Measurement.Scope.API.Model">
               <Orientation>X</Orientation>
@@ -976,11 +974,11 @@
                   <Guid>7117d769-8a42-47c3-959a-2f25558c418f</Guid>
                   <Title>AxisStyle_21</Title>
                   <Name>Axis Style (3)</Name>
-                  <Comment />
                   <DisplayColor>DarkSlateGray</DisplayColor>
                   <SortPriority>100</SortPriority>
                   <IsFileBased>false</IsFileBased>
                   <Suffix>.svstyle</Suffix>
+                  <Comment />
                 </AxisStyle>
               </SubMember>
               <Guid>4e669cb4-e96a-4013-9d01-f42303879b2a</Guid>
@@ -996,29 +994,31 @@
           <Guid>5b77e6cc-a1c8-460a-953c-e25ba37b6507</Guid>
           <Title>AxisGroup_17</Title>
           <Name>Control</Name>
-          <Comment />
           <DisplayColor>-1118482</DisplayColor>
           <SortPriority>11</SortPriority>
           <IsFileBased>false</IsFileBased>
           <Suffix>.svagroup</Suffix>
+          <Comment />
         </AxisGroup>
       </SubMember>
       <Guid>46bb1285-5cce-4f3f-b3e9-05d7b94bbffa</Guid>
       <Title>YTChart_8</Title>
       <Name>YT Chart (1)</Name>
-      <Comment />
       <DisplayColor>-1973016</DisplayColor>
       <SortPriority>11</SortPriority>
       <IsFileBased>false</IsFileBased>
       <Suffix>.svchart</Suffix>
+      <Comment />
     </YTChart>
   </SubMember>
   <Guid>85460f6a-0dd8-4b4b-80b6-cd3d0d213b64</Guid>
   <Title>ScopeProject_3</Title>
   <Name>Scope Project</Name>
-  <Comment />
   <DisplayColor>Black</DisplayColor>
   <SortPriority>100</SortPriority>
   <IsFileBased>true</IsFileBased>
   <Suffix>.tcscopex</Suffix>
+  <TargetConnectionIds />
+  <HeadlessServer />
+  <Comment />
 </ScopeProject>

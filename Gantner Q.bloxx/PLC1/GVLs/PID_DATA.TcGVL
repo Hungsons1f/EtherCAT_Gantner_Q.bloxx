@@ -8,10 +8,10 @@ VAR_GLOBAL
 	ge2 : REAL := 0;
 	gu0 : REAL := 0;
 	gu1 : REAL := 0;
-	gp : REAL := 1;
-	gi : REAL := 2;
+	gp : REAL := 0.01;
+	gi : REAL := 0.005;
 	gd : REAL := 0;
-	gset : REAL := 3000;
+	gset : REAL := 360;
 	gmea : REAL := 0;
 	gstime: REAL := 0.001;
 END_VAR]]></Declaration>
